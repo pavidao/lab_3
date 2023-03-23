@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cleaning company</title>
+</head>
+
+<body>
+    <table border="3">
+        <tr>
+            <td colspan="2" align="center">
+                <b>Просто Чисто</b>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Призвіще Ім'я
+            </td>
+            <td>
+                <input type="text" placeholder= "Шевченко Тарас " required size="40">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Площа прибирання
+            </td>
+            <td>
+                <input id="choice_1" name="radio" type="radio" value="1" />
+                <label for="choice_1">до 50 м<sup>2</sup></label><br />
+                <input id="choice_2" name="radio" type="radio" value="2" />
+                <label for="choice_2">51 - 99 м<sup>2</sup></label><br />
+                <input id="choice_3" name="radio" type="radio" value="3" />
+                <label for="choice_3">+100 м<sup>2</sup></label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Тип прибирання
+            </td>
+            <td>
+                <select name="Type_pf_clean">
+                    <option value="1">Генеральне прибирання</option>
+                    <option value="2">Базове прибирання</option>
+                    <option value="3">Хімчистка меблів</option>
+                    <option value="4">Після ремонту</option>
+                    <option value="5">Після свята</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                ХІТ-послуги
+            </td>
+            <td>
+                <input type="checkbox" id="Wetclean" name="Wetclean">
+                <label for="Wetclean">Вологе прибирання</label>
+
+                <input type="checkbox" id="Glass" name="Glass">
+                <label for="Glass">Скляні поверхні</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                Особисті побажання: <br>
+                <input type="text" placeholder= "Потребую чистки системи кондиціонування та... " required size="64">
+              
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+              <button>Надіслати мою Заявку</button>
+            </td>
+          </tr>
+
+    </table>
+
+</body>
+</html>
